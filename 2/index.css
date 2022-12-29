@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-image: url(https://html-templates.info/wp-content/uploads/140520040129.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: relative;top: 20px;
+}
+
+.navigation ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation ul li{
+    margin-right: 45px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation ul li a:hover{
+    font-size: 20px;
+    color: rgb(230, 11, 11);
+    transition: 0.3s;
+}
+
+.inc{
+    position: relative;
+    right: 400px;
+}
+
+.login{
+    position: relative;
+    left: 400px;
+}
+
+.main-hello{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: "Roboto" sans-serif;
+
+}
+
+.main-hello h1{
+    font-size: 180px;
+    color: rgb(252, 254, 254);
+    cursor: pointer;
+}
+
+.main-hello h1:hover{
+    text-decoration: underline;    
+}
+
+.main-lorem{
+    width: 500px;
+    margin-left: 480px;
+    position: relative;
+    bottom: 130px;
+    font-family: "Roboto" sans-serif;
+
+}
+.main-lorem p{
+    color: #fff;
+}
